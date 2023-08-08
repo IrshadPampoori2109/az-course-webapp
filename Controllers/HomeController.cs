@@ -20,8 +20,7 @@ namespace az_course_webapp.Controllers
 
         public IActionResult Privacy()
         {
-            throw new Exception("exception handled by app insight");
-            //return View();
+            return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
